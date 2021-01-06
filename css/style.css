@@ -1,0 +1,299 @@
+/* BODY STYLING */
+body.build-recipes {
+    background-color: #67921D;
+}
+
+body.find-recipe {
+    background-color: #E3690E;
+}
+/* END BODY STYLING */
+
+/* HEADER STYLING */
+.altr-menu-color header {
+    color: white!important;
+}
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+.navbar>.container-fluid {
+    display: block;
+    flex-wrap: inherit;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.top-menu-links {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #46444B;
+    font-weight: 300;
+}
+
+.pantryit-logo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: #46444B;
+}
+
+.navbar-light .navbar-brand {
+    color: #46444B;
+}
+
+.top-menu a.pantryit-logo:hover {
+    color: #46444B;
+    opacity: 100%;
+}
+
+.altr-menu-color .top-menu a.pantryit-logo:hover {
+    color: white;
+    opacity: 100%;
+}
+
+.altr-menu-color .navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #46444B;
+}
+
+.top-menu-links>.navbar-nav a.nav-link:hover {
+    color: #46444B;
+    opacity: 80%;
+}
+
+.altr-menu-color .top-menu-links>.navbar-nav a.nav-link:hover {
+    color: white;
+    opacity: 80%;
+}
+
+.altr-menu-color>.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.altr-menu-color>.top-menu a:hover, a:active {
+    color: white;
+    opacity: 50%;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.90);
+    border-color: rgba(0,0,0,.9);
+}
+
+.altr-menu-color>.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.altr-menu-color>.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/* END HEADER STYLING */
+
+/* FOOTER STYLING */
+footer {
+    width: 100% !important;
+    background-color: #FFE2BE;
+    padding: 30px 30px 10px 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-cont {
+    min-width: 100%;
+}
+
+.footer-cont h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #46444B;
+}
+
+.footer-cont .col-md-2 {
+    min-width: 130px;
+}
+
+.footer-cont .col-md-2 a {
+    text-decoration: none;
+    color: #46444B;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.footer-row {
+    min-width: inherit;
+}
+
+.footer-logo {
+    height: inherit;
+    padding: 0;
+}
+
+.footer-logo a:hover {
+    color: #46444B;
+    opacity: 100%;
+}
+
+.footer-food-list {
+    list-style-type: none;
+}
+
+.footer-food {
+    padding: 0;
+    padding-top: 20px;
+}
+
+.footer-about {
+    padding: 0;
+    padding-top: 20px;
+}
+
+.footer-social {
+    padding: 0;
+    padding-top: 20px;
+}
+
+.footer-copyright {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+/* END FOOTER STYLING */
+
+/* MEDIA QUERIES FOR PHONE DEVICES */
+@media only screen and (max-width: 699px) {
+    /* HEADER STYLING FOR PHONE */
+    .navbar>.container-fluid {
+        display: flex;
+        text-align: right;
+    }
+
+    .top-menu-links {
+        padding-bottom: 15px;
+    }
+
+    .navbar-nav {
+        text-align: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    /* END OF HEADER STYLING FOR PHONE */
+
+    /* FOOTER STYLING FOR PHONE */
+    footer {
+        padding: 2rem 0rem 2rem 3rem;
+    }
+
+    .footer-cont .col-md-2 {
+        max-width: 100px;
+        min-width: 130px;
+    }
+
+    .footer-cont>ol, ul {
+        padding-left: 0rem;
+    }
+
+    .footer-logo {
+        padding-bottom: 1rem;
+    }
+    
+    .footer-food {
+        padding-top: 1rem;
+        margin-right: 2rem;
+    }
+    
+    .footer-about {
+        padding-top: 1rem;
+    }
+    
+    .footer-social {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .footer-copyright {
+        margin-right: 3rem;
+    }
+    /* END OF FOOTER STYLING FOR PHONE */
+}
+/* END OF MEDIA QUERIES FOR PHONE DEVICES */
+
+/* MEDIA QUERIES FOR TABLET DEVICES */
+@media only screen and (min-width: 700px) and (max-width: 1025px) {
+    /* HEADER STYLING FOR TABLET */
+    .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    }
+
+    .navbar-expand-lg .navbar-toggler {
+    display: none;
+    }
+    /* END OF HEADER STYLING FOR TABLET */
+
+    /* FOOTER STYLING FOR TABLET */
+    footer {
+        padding: 2rem 0rem 1rem 3rem;
+    }
+
+    .footer-row {
+        width: 100%;
+    }
+
+    .footer-cont .col-md-2 {
+        min-width: 110px;
+    }
+
+    .footer-cont>ol, ul {
+        padding-left: 0rem;
+    }
+
+    .footer-logo {
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+    
+    .footer-food {
+        width: 15%;
+        padding-top: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer-about {
+        width: 15%;
+        padding-top: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .footer-social {
+        width: 15%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .footer-copyright {
+        margin-right: 1rem;
+    }
+    /* END OF FOOTER STYLING FOR TABLET */
+}
+/* END OF MEDIA QUERIES FOR TABLET DEVICES */
