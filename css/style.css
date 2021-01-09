@@ -1,4 +1,8 @@
 /* BODY STYLING */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 body.build-recipes {
     background-color: #67921D;
 }
@@ -172,6 +176,238 @@ footer {
 }
 /* END FOOTER STYLING */
 
+/* INDEX PAGE STYLING */
+.index-content-row {
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.index-content-boxes {
+    height: 40vh;
+    margin-left: 1.5rem;
+    padding-top: 15vh;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #46444B;
+}
+
+.intro-section {
+    padding-top: 2rem;
+}
+
+.intro-section h3 {
+    font-weight: 700;
+}
+
+.intro-section p {
+    font-weight: 300;
+}
+
+.get-started-section {
+    margin-bottom: 3rem;
+}
+/* END OF INDEX PAGE STYLING */
+
+/* BUILD RECIPE STYLING */
+.build-intro-section {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.build-intro-section h2 {
+    font-size: 8vh;
+    font-weight: 400;
+    padding: 0rem 2rem 0rem 2rem;
+    color: #FFFFFF;
+}
+
+.how-it-works h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 2rem 2rem 2rem 2rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.how-it-works-boxes {
+    height: 30vh;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 13vh;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #46444B;
+}
+
+.build-recipe-form {
+    max-width: 75%;
+    margin: 2rem auto 2rem auto;
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 15px;
+}
+/* END OF BUILD RECIPE STYLING */
+
+/* SAHRE RECIPE STYLING */
+.share-intro-section {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.share-intro-img {
+    height: 40VH;
+    width: 80vw;  
+    background-color: gray; 
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.share-intro-section a {
+    font-weight: 300;
+    background-color: transparent;
+    border: 1px solid #46444B;
+    border-radius: 5px;
+    color: #46444B;
+    padding: 2vh 10vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.share-intro-section a:hover {
+    background-color: rgb(70, 68, 75, 0.05);
+}
+
+.share-intro-section h2 {
+    font-size: 8vh;
+    font-weight: 400;
+    padding: 0rem 2rem 2rem 2rem;
+    color: #46444B;
+}
+
+.features-recipies h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 2rem 2rem 1rem 2rem;
+    color: #46444B;
+    text-align: center;
+}
+
+.share-content-row {
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.share-imgs {
+    height: 30vh;
+    margin-left: 1.5rem;
+    padding-top: 15vh;
+    border-radius: 7px;
+}
+/* END OF SHARE RECIPE STYLING */
+
+/* FIND RECIPE STYLING */
+.search-intro-section {
+    padding-top: 2rem;
+}
+
+.search-intro-section h2 {
+    font-size: 8vh;
+    font-weight: 400;
+    padding: 0rem 2rem 1rem 2rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.search-intro-section>.input-group {
+    width: 80%;
+    margin: 2rem auto;
+    height: 6vh;
+    border: none;
+}
+
+.search-intro-section .form-control {
+    border: 1px solid #FFFFFF;
+    font-weight: 300;
+}
+
+.search-intro-section .form-control::placeholder {
+    color: #E3690E;
+    font-weight: 300;
+}
+
+.search-icon {
+    width: 8%;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.search-icon i {
+    font-size: 1.8em;
+    color: #E3690E;
+    background-color: transparent;
+}
+
+button.search-icon:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+button.search-icon:hover i {
+    background-color: transparent;
+}
+
+.search-intro-section p{
+    margin: 0 auto;
+    width: 70%;
+    padding: 0rem 2rem 1rem 2rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.search-filters-boxes {
+    height: 30vh;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 13vh;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #46444B;
+}
+
+.search-filters-section {
+    text-align: center;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.search-filters-section a {
+    font-weight: 300;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    color: #FFFFFF !important;
+    padding: 2vh 10vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 2rem 2px;
+    cursor: pointer;
+}
+
+.search-filters-section a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+/* END OF FIND RECIPE STYLING */
+
+/* ---------------------------------------- MEDIA QUERIES FOR MOBILE DEVICES ---------------------------------------- */
+
 /* MEDIA QUERIES FOR PHONE DEVICES */
 @media only screen and (max-width: 699px) {
     /* HEADER STYLING FOR PHONE */
@@ -227,6 +463,80 @@ footer {
         margin-right: 3rem;
     }
     /* END OF FOOTER STYLING FOR PHONE */
+
+    /* INDEX STYYLING FOR PHONE */
+    .index-content-row {
+        padding-bottom: 0rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .index-content-boxes {
+        height: 40vh;
+        margin-bottom: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .intro-section {
+        padding-top: 1rem;
+    }
+    
+    .get-started-section {
+        margin-bottom: 1rem;
+    }
+    /* END OF INDEX STYYLING FOR PHONE */
+
+    /* BUILD RECIPE STYLING FOR PHONE */
+    .how-it-works-boxes {
+        height: 40vh;
+        margin-bottom: 1.5rem;
+        margin-left: 0rem;
+    }
+    /* END OF BUILD RECIPE STYLING FOR PHONE */
+
+    /* SHARE RECIPE STYLING FOR PHONE */
+    .share-content-row {
+        padding-bottom: 0rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .share-imgs {
+        height: 40vh;
+        margin-bottom: 1.5rem;
+        margin-left: 0rem;
+    }
+    /* END OF SHARE RECIPE STYLING FOR PHONE */
+
+    /* FIND RECIPE STYLING FOR HOME */
+    .search-intro-section p{
+        margin: 0 auto;
+        width: 100%;
+        padding: 0rem 2rem 1rem 2rem;
+        font-weight: 300;
+        color: #FFFFFF;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .search-filters-boxes {
+        height: 40vh;
+        margin-bottom: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .search-icon {
+        width: 15vw;
+        background-color: #FFFFFF;
+        border: none;
+    }
+
+    .search-icon i {
+        font-size: 1em;
+        color: #E3690E;
+        background-color: transparent;
+    }
+    /* END OF FIND RECIPE STYLING FOR HOME */
 }
 /* END OF MEDIA QUERIES FOR PHONE DEVICES */
 
